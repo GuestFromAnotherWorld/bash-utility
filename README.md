@@ -5,7 +5,7 @@ A simple command line bash utility using getopt and getopts
 //This function prints help on how to use the script and terminates its execution.
 
 function show_help {
-    echo "Использование: $0 [опции]"
+    echo "usage: $0 [option]"
     echo "Опции:"
     echo "  -u, --users         Lists users and their home directories"
     echo "  -p, --processes     Displays a list of running processes"
